@@ -40,7 +40,7 @@ class realmd::params {
       }
       $manage_krb_config       = true
     }
-    'Debian': {
+    'Debian', 'Ubuntu': {
       $realmd_package_name     = 'realmd'
       $realmd_config_file      = '/etc/realmd.conf'
       $realmd_config           = {}
